@@ -94,7 +94,7 @@ final readonly class Operand
     }
 }
 
-// オペランドの配列を渡すと、答えが10になる計算式を返す関数
+// オペランドの配列を渡すと、与えられた答えになる計算式を返す関数
 /** @param Operand[] $operands */
 function solve(array $operands, int $answer): ?string
 {
